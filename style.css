@@ -9,6 +9,14 @@
 
 main {
     max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20px 0; */
+    /* margin-left: 100px;
+    margin-right: 100px; */
 }
 
 /* Nav or Header styles */
@@ -79,19 +87,18 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("/group-14.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    gap: 100px;
+
 }
 
 .banner-content {
     text-align: center;
-    margin-left: 180px;
+    /* margin-left: 180px; */
     /* border: 1px solid salmon; */
     margin-top: 80px;
 
-    
-    
+
+
 }
 
 .play-like {
@@ -139,7 +146,8 @@ main {
     padding: 21px 40px;
     background: #4EC5F7;
 }
-.button{
+
+.button {
     margin-top: 20px;
     margin-right: 35px;
 }
@@ -150,4 +158,57 @@ main {
 
 .banner-img img {
     width: 100%;
+}
+
+/* Online games styles */
+
+.online-games-content {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.online-games-content h2 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.funny-videos-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.games-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 220px;
+
+}
+
+
+.games-card-container img {
+    width: 250px;
+    border-radius: 16px;
+
+}
+
+.games-card-container img:hover {
+    
+}
+
+.games-card-container p {
+    width: 100%;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 500;
 }
