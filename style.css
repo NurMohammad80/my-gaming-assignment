@@ -202,9 +202,7 @@ main {
 
 }
 
-.games-card-container img:hover {
-    
-}
+.games-card-container img:hover {}
 
 .games-card-container p {
     width: 100%;
@@ -212,3 +210,59 @@ main {
     font-size: 1.125rem;
     font-weight: 500;
 }
+
+     /* play-instant styles */
+
+.play-instant-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    /* border: 1px solid saddlebrown; */
+}
+
+/* .play-instant-content{
+    padding-right: 100px;
+    border: 1px solid saddlebrown;
+} */
+
+.play-instant-content h1 {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 70%;
+    padding: 20px 0;
+
+}
+
+.play-instant {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instant-content p {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.125rem;
+    width: 70%;
+}
+
+/* .play-instant-img-container{
+    margin-left: 100px;
+} */
+
+.play-instant-img{
+    height: 500px;
+    margin-left: 100px;
+    /* border: 1px solid saddlebrown; */
+}
+
+.play-instant-img-container div img{
+    border-radius: 8px;
+    position: relative;
+    bottom: 150px;
+    right: 40px;
+}
+
