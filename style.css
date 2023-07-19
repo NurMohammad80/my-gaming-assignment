@@ -218,7 +218,7 @@ main {
     justify-content: space-between;
     align-items: center;
     margin-left: 40px;
-    
+
 }
 
 
@@ -317,7 +317,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-.game-type-container2 div:hover{
+.game-type-container2 div:hover {
     border: 2px solid #FF42A4;
     border-radius: 50px;
     background: #FFF;
@@ -326,4 +326,119 @@ main {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* Footer section styles */
+
+footer {
+    background: #0B0223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.footer-icon {
+    margin-bottom: 70px;
+}
+
+.footer-logo {
+    color: #FFF;
+}
+
+.about-us a {
+    text-decoration: none;
+    margin: 20px;
+    color: #FFF;
+}
+
+.social-media {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.social-media a {
+    margin: 30px;
+
+}
+
+.policy-container a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 30px;
+}
+
+footer h5{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width:576px) {
+    *{
+        margin: auto;
+        
+    }
+    
+    .logo-container{
+        flex-direction: column;
+    }
+    .menus-items>ul {
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-img img {
+        width: 85%;
+    }
+    .games-card-container{
+        flex-direction: column;
+    }
+    .play-instant-container{
+        flex-direction: column;
+    }
+    .play-instant-content h1{
+        text-align: center;
+    }
+
+
+    .play-instant-img{
+        height: 380px;
+        margin-left: 50px;
+    }
+
+    .game-type-container{
+        grid-template-columns: repeat(3, auto);
+    }
+    .game-type-container2{
+        grid-template-columns: repeat(4, auto);
+    }
+    
+    .icon img{
+        width: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .logo-container{
+        flex-direction: column;
+    }
+    
+    .banner-container{
+        flex-direction: column;
+    }
+    
+    .play-instant-container{
+        flex-direction: column;
+    }
+    .games-card-container{
+        flex-direction: column;
+    }
 }
