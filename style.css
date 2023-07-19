@@ -198,7 +198,7 @@ main {
 
 .games-card-container img {
     width: 250px;
-    border-radius: 16px;
+
 
 }
 
@@ -211,20 +211,16 @@ main {
     font-weight: 500;
 }
 
-     /* play-instant styles */
+/* play-instant styles */
 
 .play-instant-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 40px;
-    /* border: 1px solid saddlebrown; */
+    
 }
 
-/* .play-instant-content{
-    padding-right: 100px;
-    border: 1px solid saddlebrown;
-} */
 
 .play-instant-content h1 {
     text-align: right;
@@ -253,16 +249,81 @@ main {
     margin-left: 100px;
 } */
 
-.play-instant-img{
+.play-instant-img {
     height: 500px;
     margin-left: 100px;
     /* border: 1px solid saddlebrown; */
 }
 
-.play-instant-img-container div img{
+.play-instant-img-container div img {
     border-radius: 8px;
     position: relative;
     bottom: 150px;
     right: 40px;
 }
 
+/* Game-type styles */
+
+.game-type-container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.game-type-container div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px;
+    border: 1px solid transparent;
+    /* width: 20px; */
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.icon img {
+    width: 40px;
+}
+
+.game-type-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 35px;
+}
+
+.game-type-container2 div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid transparent;
+    padding: 6px;
+    margin-bottom: 100px;
+}
+
+.game-type-container div:hover {
+    border: 2px solid #FF42A4;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 5px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.game-type-container2 div:hover{
+    border: 2px solid #FF42A4;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 5px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
